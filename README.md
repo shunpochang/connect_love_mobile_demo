@@ -26,7 +26,7 @@ rnpm link
 ```
 ---
 ##### iOS demo
-[![iOS gif](https://github.com/shunpochang/file_dump/blob/master/images/connect-love-iphone-demo.gif "connect-love iOS demo")](https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.ios.js)
+<a href="https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.ios.js"><img src="https://github.com/shunpochang/file_dump/blob/master/images/connect-love-ios-demo.gif" height="450" alt="ios_demo"></a>
 ## Start running the app on iOS
 ```bash
 react-native run-ios
@@ -36,9 +36,10 @@ react-native log-ios
 When running iOS simulator, Command⌘ + d brings up the developer settings, and Command⌘ + R refreshes the app.
 
 *Note*: If you decided to switch to a non-secure api (not https://) for data fetching/posting, turn off [App Transport Security in Xcode](http://stackoverflow.com/questions/30731785/how-do-i-load-an-http-url-with-app-transport-security-enabled-in-ios-9).
+
 ---
 ##### Android demo
-[![Android gif](https://github.com/shunpochang/file_dump/blob/master/images/connect-love-android-demo.gif "connect-love Android demo")](https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.android.js)
+<a href="https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.android.js"><img src="https://github.com/shunpochang/file_dump/blob/master/images/connect-love-android-demo.gif" height="450" alt="android_demo"></a>
 ## Start running the app on Android
 ```bash
 # First start a Android Virtual Device (or connect to a physical device).
