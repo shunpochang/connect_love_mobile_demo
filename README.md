@@ -10,18 +10,24 @@ Following the setups and tutorial from [React Native](https://cloud.google.com/p
 ## Steps to set up.
 First follow [React-Native (RN) instructions](https://facebook.github.io/react-native/docs/getting-started.html) to install react-native command-line interface.
 
-This demo root contains the necessary android/ios build dependencies in respective folders (do not need to touch them), a package.json for JS dependencies, two RN root javascript files (index.*.js) corresponding to android and ios main app, and an App folder that contains 2 views in the mobile app and a helper file for network api.
+This demo root includes: 
+* android/ios build dependencies in respective folders (do not need to touch them)
+* a package.json for JS dependencies
+* two RN root javascript files (index.*.js) corresponding to android and ios main app
+* an App folder that contains 2 views in the mobile app and a helper file for network api.
 
 #### Install dependencies
 ```bash
 # Installs all JS dependencies.
 npm install
-# Use rnpm to build additional depenencies for using third-party JS libraries (like 'react-native-vector-icons' and 'tcomb-form-native') on iOS and Android.
+# Use rnpm to build additional depenencies for using third-party JS libraries 
+# (like 'react-native-vector-icons' and 'tcomb-form-native') on iOS and Android.
 rnpm link
 ```
+---
 ##### iOS demo
 [![iOS gif](https://github.com/shunpochang/file_dump/blob/master/images/connect-love-iphone-demo.gif "connect-love iOS demo")](https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.ios.js)
-### Start running the app on iOS
+## Start running the app on iOS
 ```bash
 react-native run-ios
 # Check out console logs.
@@ -30,10 +36,10 @@ react-native log-ios
 When running iOS simulator, Command⌘ + d brings up the developer settings, and Command⌘ + R refreshes the app.
 
 *Note*: If you decided to switch to a non-secure api (not https://) for data fetching/posting, turn off [App Transport Security in Xcode](http://stackoverflow.com/questions/30731785/how-do-i-load-an-http-url-with-app-transport-security-enabled-in-ios-9).
-
+---
 ##### Android demo
 [![Android gif](https://github.com/shunpochang/file_dump/blob/master/images/connect-love-android-demo.gif "connect-love Android demo")](https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.android.js)
-### Start running the app on Android
+## Start running the app on Android
 ```bash
 # First start a Android Virtual Device (or connect to a physical device).
 android avd
