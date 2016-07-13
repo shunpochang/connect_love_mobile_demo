@@ -26,7 +26,7 @@ rnpm link
 ```
 ---
 ##### iOS demo
-<a href="https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.ios.js"><img src="https://github.com/shunpochang/file_dump/blob/master/images/connect-love-ios-demo.gif" height="450" alt="ios_demo"></a>
+<a href="https://github.com/shunpochang/connect_love_mobile_demo/blob/master/index.ios.js"><img src="https://github.com/shunpochang/file_dump/blob/master/images/connect-love-iphone-demo.gif" height="450" alt="ios_demo"></a>
 ## Start running the app on iOS
 ```bash
 react-native run-ios
