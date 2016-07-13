@@ -3,7 +3,8 @@
 #### Using React-Native, here's the Android and iOS app for [a simple commenting board with Django backend hosted on GAE](https://github.com/shunpochang/connect_love_demo) that I built for my prior web tutorial.
 ---
 ##### connect-love web demo
-[![alt text](https://github.com/shunpochang/file_dump/blob/master/images/connect_love_demo_img_2.png "connect-love demo")](https://connect-love.appspot.com/)
+<a href="https://connect-love.appspot.com/">
+<img src="https://github.com/shunpochang/file_dump/blob/master/images/connect_love_demo_img_2.png" height="200" alt="connect_love_app"></a>
 
 Following the setups and tutorial from [React Native](https://cloud.google.com/python/django/appengine) and leveraging a RESTful api through Django backend from my [Django + Reactjs web demo](https://github.com/shunpochang/connect_love_demo), I built a iOS and Android version for **[connect-love app](https://connect-love.appspot.com/)** (while reusing 60% of the code for both platforms).
 
